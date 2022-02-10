@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/contacto.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <title>Confirmación de compra</title>
+</head>
+<body>
+    <body>
+        <h1 class="h1-forms">Datos para la compra</h1>
+        <div class="div-forms">
+    
+        <form action="Enviar.php" method="GET">
+    
+        <fieldset id="formulario">
+            <div class="input-group">
+                <span class="input-group-text">Nombre y apellido</span>
+                <input type="text" aria-label="First name" class="form-control">
+                <input type="text" aria-label="Last name" class="form-control">
+              </div>
+              <br>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Dirección de Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">No compartiremos con nadie tu email</div>
+          </div>
+        
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              Masculino
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+              Femenino
+            </label>
+          </div>
+         
+        <br>
+        <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+            <label class="form-check-label" for="flexSwitchCheckDefault">Acepto los términos y condiciones</label>
+          </div>
+        <br>
+        <select class="form-select" aria-label="Default select example">
+            <option selected>Provincia</option>
+            <option value="Alemania">Buenos Aires</option>
+            <option value="Argentina">Córdoba</option>
+            <option value="Bélgica">Mendoza</option>
+            <option value="3">Neuquén</option>
+            <option value="3">Salta</option>
+            <option value="3">Santa Fé</option>
+            <option value="3">Tucumán</option>
+          </select>
+        <br>
+        <select class="form-select" id="pago" aria-label="Default select example">
+            <option selected>Método de Pago</option>
+            <option value="Alemania">Visa Débito</option>
+            <option value="Argentina">Visa Crédito</option>
+            <option value="Bélgica">MasterCard Débito</option>
+            <option value="3">MasterCard Crédito</option>
+            <option value="3">American Express</option>
+          </select>
+          <div id="datos-pago"></div>
+        
+        <button type="button" class="btn btn-primary btn-sm espacio-botones" id="enviar">Enviar</button>
+        <button type="button" class="btn btn-secondary btn-sm espacio-botones" id="limpiar">Limpiar</button>
+    </fieldset>
+    </form>
+
+    <script src="../js/confrimacion.js"></script>
+</body>
+</html>

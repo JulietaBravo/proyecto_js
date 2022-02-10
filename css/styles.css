@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+
+}
+body{
+    background-color: #fff6ff;
+}
+
+h1{
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    font-size: 2rem;
+    background-color: powderblue;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: whitesmoke;
+}
+
+.container-items{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    margin: 3rem;
+    justify-content: center;
+}
+
+
+.card-img-top{
+    height: 20%;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.titulos{
+    font-size: 1.5rem;
+    font-family: 'Baloo 2', cursive;
+    text-align: center;
+    
+}
+
+.precio{
+    font-size: 1rem;
+    font-family: 'Baloo 2', cursive;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.individual{
+    justify-content: center;
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.h2{
+    text-align: right;
+    font-family: 'Baloo 2', cursive;
+    font-size: 1rem;
+}
+
+.contenedor-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-carrito{
+    color: whitesmoke;
+    border-color: plum; 
+    border-radius: 0.5rem;
+    background-color: plum;
+    font-family: 'Baloo 2', cursive;
+    font-size: 1rem;
+    padding: 0.5rem;    
+}
+
+button{
+    font-family: 'Baloo 2', cursive;
+    border-radius: 0.5rem;
+    margin-top: 0.2rem;
+    margin-left: 30rem;
+    background-color: plum;
+    font-size: 1rem;
+    color: whitesmoke;
+    border-color: white;
+}
+
+.alerta{
+    font-family: 'Baloo 2', cursive;
+}
+.row-button{
+    display: grid;
+    grid-template-columns: 20% 20%;
+    grid-template-rows: 100%;
+}
+
+.button{
+    font-family: 'Baloo 2', cursive;
+    border-radius: 0.5rem;
+    margin-top: 0.2rem;
+    margin-left: 30rem;
+    background-color: plum;
+    font-size: 1rem;
+    color: whitesmoke;
+    border-color: white;
+    
+}
+
+.btn btn-danger btn-sm{
+    font-family: 'Baloo 2', cursive;
+    border-radius: 0.5rem;
+    margin-top: 0.2rem;
+    margin-left: 30rem;
+    background-color: plum;
+    font-size: 1rem;
+    color: whitesmoke;
+    border-color: white;
+}
+
+.footer{
+    background-color: powderblue;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+}
+
+.socialmedia a{
+    display: inline-flex;
+    background-color: plum;
+    color: whitesmoke;
+    height: 1.8rem;
+    width: 1.8rem;
+    align-items: center;
+    justify-content: center;  
+    border-radius: 50%;
+    text-decoration: none;
+    margin-left: 1rem;
+    background-color: plum;
+    transition: transform 0.3s;
+    }
+        
+.socialmedia a:hover{
+        transform: scale(1.5);
+        color: whitesmoke;
+    }
+    

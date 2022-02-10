@@ -1,0 +1,32 @@
+[
+    {"id":1,
+    "nombre": "Cuaderno", 
+    "precio":800, 
+    "cantidad":5, 
+    "stock":true,
+    "imagen":"./images/cuaderno.jpg"
+  },
+  
+  {"id":2,
+    "nombre": "Cuaderno Recalculando", 
+    "precio":950, 
+    "cantidad":6, 
+    "stock":true,
+    "imagen":"./images/Cuaderno recalculando.png"
+  },
+  
+  {"id":3,
+    "nombre": "Cuaderno Universo", 
+    "precio":700, 
+    "cantidad":10, 
+    "stock":true,
+    "imagen":"./images/Cuaderno Universo.png"
+  },
+  {"id":4,
+    "nombre": "Agenda", 
+    "precio":2500, 
+    "cantidad":12, 
+    "stock":true,
+    "imagen":"./images/Agenda.jpg"
+  }
+]
